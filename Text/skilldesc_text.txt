@@ -1675,3 +1675,8 @@ weapons of the same type as the user's.[X]
 ## SD_SwordProwess
 Sword Prowess: Boosts Hit, Avoid and[N]
 Crit per weapon level above E.[X]
+
+## SD_Analytic
+Analytic: +10 attack if speed is less than[N]
+oppponent's by 4 or more, if between 1-3[N] 
+then +5 attack.[X]

@@ -400,6 +400,12 @@ SwordProwess:
 POIN SkillTester
 WORD SwordProwessID
 
+ALIGN 4
+Analytic:
+#incbin "Analytic/Analytic.dmp"
+POIN SkillTester
+WORD AnalyticID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

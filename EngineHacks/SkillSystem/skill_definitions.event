@@ -423,11 +423,15 @@
 //Sword Prowess LV3: Grants Hit +7, Avo +13, and Crit Avo +7 when using a sword (Rank B)
 //Sword Prowess LV4: Grants Hit +8, Avo +16, and Crit Avo +8 when using a sword (Rank C)
 //Sword Prowess LV5: Grants Hit +10, Avo +20, and Crit Avo +10 when using a sword (Rank D)
+//By Jester
 #define SwordProwessID 255
+
+//Analytic: +10 attack if speed is less than opponent's by 4 points or more. If between 1-3 points, then +5 attack.
+#define AnalyticID 15
 
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz
-#define AxeFaithID 15
+#define AxeFaithID 255
 #define AxefaithID AxeFaithID //Alias
 
 //Battle Veteran: Gain +1 damage and +5% Hit per 10 levels unit has.
