@@ -394,6 +394,12 @@ WonderGuard:
 POIN SkillTester
 WORD WonderGuardID
 
+ALIGN 4
+SwordProwess:
+#incbin "SwordProwess/SwordProwess.dmp"
+POIN SkillTester
+WORD SwordProwessID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

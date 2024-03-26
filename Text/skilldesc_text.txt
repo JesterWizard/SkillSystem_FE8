@@ -1671,3 +1671,7 @@ Speed Boost: Boosts movement by[N]
 ## SD_WonderGuard
 Wonder Guard: Cannot be damaged by[N]
 weapons of the same type as the user's.[X]
+
+## SD_SwordProwess
+Sword Prowess: Boosts Hit, Avoid and[N]
+Crit per weapon level above E.[X]

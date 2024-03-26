@@ -418,9 +418,16 @@
 //By Jester
 #define WonderGuardID 255
 
+//Sword Prowess LV1: Grants Hit +5, Avo +7, and Crit Avo +5 when using a sword (Rank S)
+//Sword Prowess LV2: Grants Hit +6, Avo +10, and Crit Avo +6 when using a sword (Rank A)
+//Sword Prowess LV3: Grants Hit +7, Avo +13, and Crit Avo +7 when using a sword (Rank B)
+//Sword Prowess LV4: Grants Hit +8, Avo +16, and Crit Avo +8 when using a sword (Rank C)
+//Sword Prowess LV5: Grants Hit +10, Avo +20, and Crit Avo +10 when using a sword (Rank D)
+#define SwordProwessID 15
+
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz
-#define AxeFaithID 165
+#define AxeFaithID 255
 #define AxefaithID AxeFaithID //Alias
 
 //Battle Veteran: Gain +1 damage and +5% Hit per 10 levels unit has.

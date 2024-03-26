@@ -395,5 +395,5 @@ SkillDescription(SwarmID,SD_Swarm)
 SkillDescription(LadyBladeID,SD_LadyBlade)
 SkillDescription(NoGuardID,SD_NoGuard)
 SkillDescription(SpeedBoostID,SD_SpeedBoost)
-SkillDescription(WonderGuardID, SD_WonderGuard)
- 
+SkillDescription(WonderGuardID,SD_WonderGuard)
+SkillDescription(SwordProwessID,SD_SwordProwess)

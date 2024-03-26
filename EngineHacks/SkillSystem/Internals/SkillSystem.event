@@ -313,6 +313,7 @@ NegatedSkillEntry(FortuneID)
 NegatedSkillEntry(NoGuardID)
 NegatedSkillEntry(SpeedBoostID)
 NegatedSkillEntry(WonderGuardID)
+NegatedSkillEntry(SwordProwessID)
 
 /*
 //NOT WORKING (or they should not be affected by nihil)
