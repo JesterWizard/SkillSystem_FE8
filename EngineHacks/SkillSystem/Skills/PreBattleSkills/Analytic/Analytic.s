@@ -5,8 +5,6 @@ push {r4-r7, lr}
 mov r4, r0 @atkr
 mov r5, r1 @dfdr
 
-@untested due to a chronic case of can't be arsed. But it should work.
-
 @has Analytic
 ldr r0, SkillTester
 mov lr, r0
