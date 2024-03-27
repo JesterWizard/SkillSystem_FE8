@@ -1676,6 +1676,33 @@ weapons of the same type as the user's.[X]
 Sword Prowess: Boosts Hit, Avoid and[N]
 Crit per weapon level above E.[X]
 
+## SD_AxeProwess
+Axe Prowess: Boosts Hit, Avoid and[N]
+Crit per weapon level above E.[X]
+
+## SD_BowProwess
+Bow Prowess: Boosts Hit, Avoid and[N]
+Crit per weapon level above E.[X]
+
+## SD_LanceProwess
+Lance Prowess: Boosts Hit, Avoid and[N]
+Crit per weapon level above E.[X]
+
+## SD_Reason
+Reason: Boosts Hit, Avoid and[N]
+Crit per weapon level above E,[N]
+for dark magic[X]
+
+## SD_Faith
+Faith: Boosts Hit, Avoid and[N]
+Crit per weapon level above E,[N]
+for light magic[X]
+
+## SD_Harmony
+Harmony: Boosts Hit, Avoid and[N]
+Crit per weapon level above E,[N]
+for anima magic[X]
+
 ## SD_Analytic
 Analytic: +10 attack if speed is less than[N]
 oppponent's by 4 or more, if between 1-3[N] 

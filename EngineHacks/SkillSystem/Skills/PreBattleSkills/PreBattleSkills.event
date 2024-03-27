@@ -401,6 +401,42 @@ POIN SkillTester
 WORD SwordProwessID
 
 ALIGN 4
+AxeProwess:
+#incbin "AxeProwess/AxeProwess.dmp"
+POIN SkillTester
+WORD AxeProwessID
+
+ALIGN 4
+BowProwess:
+#incbin "BowProwess/BowProwess.dmp"
+POIN SkillTester
+WORD BowProwessID
+
+ALIGN 4
+LanceProwess:
+#incbin "LanceProwess/LanceProwess.dmp"
+POIN SkillTester
+WORD LanceProwessID
+
+ALIGN 4
+Reason:
+#incbin "Reason/Reason.dmp"
+POIN SkillTester
+WORD ReasonID
+
+ALIGN 4
+Faith:
+#incbin "Faith/Faith.dmp"
+POIN SkillTester
+WORD FaithID
+
+ALIGN 4
+Harmony:
+#incbin "Harmony/Harmony.dmp"
+POIN SkillTester
+WORD HarmonyID
+
+ALIGN 4
 Analytic:
 #incbin "Analytic/Analytic.dmp"
 POIN SkillTester

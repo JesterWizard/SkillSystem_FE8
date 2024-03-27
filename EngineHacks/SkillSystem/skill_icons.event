@@ -1119,6 +1119,18 @@ ORG SkillIcon(AnalyticID)
 
 ORG SkillIcon(SwordProwessID)
 #incbin "SkillIcons/Acrobat.dmp"
+ORG SkillIcon(AxeProwessID)
+#incbin "SkillIcons/Acrobat.dmp"
+ORG SkillIcon(BowProwessID)
+#incbin "SkillIcons/Acrobat.dmp"
+ORG SkillIcon(LanceProwessID)
+#incbin "SkillIcons/Acrobat.dmp"
+ORG SkillIcon(ReasonID)
+#incbin "SkillIcons/Acrobat.dmp"
+ORG SkillIcon(FaithID)
+#incbin "SkillIcons/Acrobat.dmp"
+ORG SkillIcon(HarmonyID)
+#incbin "SkillIcons/Acrobat.dmp"
 
 ORG SkillIcons+0x8000
 

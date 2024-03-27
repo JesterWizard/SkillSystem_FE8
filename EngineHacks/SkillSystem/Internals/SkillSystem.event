@@ -314,6 +314,12 @@ NegatedSkillEntry(NoGuardID)
 NegatedSkillEntry(SpeedBoostID)
 NegatedSkillEntry(WonderGuardID)
 NegatedSkillEntry(SwordProwessID)
+NegatedSkillEntry(AxeProwessID)
+NegatedSkillEntry(BowProwessID)
+NegatedSkillEntry(LanceProwessID)
+NegatedSkillEntry(ReasonID)
+NegatedSkillEntry(FaithID)
+NegatedSkillEntry(HarmonyID)
 NegatedSkillEntry(AnalyticID)
 
 /*
