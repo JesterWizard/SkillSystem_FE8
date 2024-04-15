@@ -129,7 +129,7 @@
 
 //Armorboost: +4 attack and defense against armored enemies if within 3 spaces of an armored ally.
 //By Sme
-#define ArmorboostID 255
+#define ArmorboostID 156
 #define ArmorBoostID ArmorboostID //Alias\
 
 
@@ -149,7 +149,7 @@
 
 #define SoulSapID 255
 
-#define DrySkinID 156
+#define DrySkinID 255
 
 
 // Buff Skills
