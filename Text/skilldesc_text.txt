@@ -1685,3 +1685,7 @@ Analytic: +10 attack if speed is less than[N]
 opponent's by 4 or more, if between 1-3[N] 
 poits, then +5 attack.[X]
 
+## SD_DrySkin
+DrySkin: If the weather is sunny, reduce[N]
+10% of the unit's health, if the weather[N]
+is rainy, then heal 10%.[X]
