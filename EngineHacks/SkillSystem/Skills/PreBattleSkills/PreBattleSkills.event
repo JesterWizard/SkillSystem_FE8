@@ -400,6 +400,12 @@ Analytic:
 POIN SkillTester
 WORD AnalyticID
 
+ALIGN 4
+Chlorophyll:
+#incbin "Chlorophyll/Chlorophyll.dmp"
+POIN SkillTester
+WORD ChlorophyllID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

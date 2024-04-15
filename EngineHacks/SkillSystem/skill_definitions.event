@@ -422,9 +422,12 @@
 //By Jester
 #define AnalyticID 255
 
+//Chlorophyll: If the weather is sunny, then double this unit's speed
+#define ChlorophyllID 165
+
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz
-#define AxeFaithID 165
+#define AxeFaithID 255
 #define AxefaithID AxeFaithID //Alias
 
 //Battle Veteran: Gain +1 damage and +5% Hit per 10 levels unit has.
