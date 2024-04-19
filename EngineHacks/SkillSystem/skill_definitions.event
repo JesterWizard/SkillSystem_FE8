@@ -413,7 +413,11 @@
 
 //Gridmaster: Movement skills do not end your action.
 //By Sme
-#define GridmasterID 120
+#define GridmasterID 255
+
+//AngerPoint: +10 attack when damaged by a critical hit.
+//By Jester
+#define AngerPointID 120
 
 
 //Pre-Battle Skills
