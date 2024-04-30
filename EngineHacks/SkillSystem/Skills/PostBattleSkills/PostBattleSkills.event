@@ -145,6 +145,13 @@ PoisonPoint:
 POIN SkillTester
 WORD PoisonPointID
 
+ALIGN 4
+EndlessVitality:
+#incbin "EndlessVitality/EndlessVitality.dmp"
+POIN SkillTester
+WORD EndlessVitalityID
+POIN EndlessVitalityEvent
+#include "EndlessVitality/EndlessVitalityEvent.event"
 
 PUSH //some changes to vanilla code to make everything work
 ORG $1D24C //check for canto, modified to just check for cantoing bit set

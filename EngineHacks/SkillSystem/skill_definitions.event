@@ -436,6 +436,10 @@
 //By Jester
 #define PoisonPointID 255
 
+//EndlessVitality: Unit restores 20% HP after every battle it participates in.
+//By Jester
+#define EndlessVitalityID 255
+
 //Pre-Battle Skills
 
 //No Guard: Both sides have a 100% hit rate.
