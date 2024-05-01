@@ -159,6 +159,7 @@
 #define DragonType	0x08
 #define MonsterType	0x10
 #define SwordType	0x20
+#define AllType 0x30
 //Used with Dragz's Effectiveness Items
 /*
 #define Flammable 0x40

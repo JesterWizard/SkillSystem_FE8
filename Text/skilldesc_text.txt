@@ -1724,4 +1724,9 @@ the end of the battle.[X]
 ## SD_SuperLuck
 SuperLuck: Use luck as crit rate.[X]
 
+## SD_DoOrDie
+DoOrDie: If the enemy's final damage[N]
+is higher than this unit's current[N]
+HP, then deal effective damage.[X]
+
 

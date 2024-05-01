@@ -85,6 +85,9 @@ FlierAndMonster2: //Nidhogg
 SetWeaponEffectiveness(FlierType, 6)
 SetWeaponEffectiveness(MonsterType, 4)
 WORD 0
+AllEffectiveness:
+SetWeaponEffectiveness(AllType, 6)
+WORD 0
 //Used with Dragz's Effectiveness Items
 /*
 FlammableEffectiveness:

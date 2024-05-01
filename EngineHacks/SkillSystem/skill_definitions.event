@@ -275,6 +275,9 @@
 //By Sme
 #define ResourcefulID 48
 
+//DoOrDie: If the enemy's final damage is higher than this unit's current HP, then deal effective damage.
+//By Jester
+#define DoOrDieID 255
 
 //EXP Skills
 
