@@ -1,0 +1,11 @@
+ALIGN 4
+Armsthrift:
+#incbin "Armsthrift/Armsthrift.dmp"
+POIN SkillTester
+WORD ArmsthriftID
+
+ALIGN 4
+AxeFaith:
+#incbin "AxeFaith/AxeFaith.dmp"
+POIN SkillTester
+WORD AxeFaithID

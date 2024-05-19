@@ -25,3 +25,5 @@
 
 #include "RangeCalcLoop/RangeCalcLoop.event"
 
+#include "ArmsthriftCalcLoop/ArmsthriftCalcLoop.event"
+

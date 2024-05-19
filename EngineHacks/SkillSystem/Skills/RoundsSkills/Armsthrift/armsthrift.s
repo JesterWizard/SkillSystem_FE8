@@ -13,6 +13,8 @@ ArmsthriftHook:
 	@ r5 is Attacker
 	@ Nothing needs to be saved (we branch back to the function epilogue)
 
+	mov r8, lr
+
 	mov r1, #2   @ Miss flag
 
 	tst r0, r1  @ <void> = CurrentRound & 2
@@ -38,10 +40,11 @@ NonMiss:
 
 	@ Getting Armsthrift proc chance (=luck)
 	ldrb r0, [r5, #0x19] @ BattleUnit.luck
+	mov r0,#100
 @	lsl  r0, #1          @ multiply by 2
 	mov r1, r5           @ get attacker for future checks
 
-	@ ROLL
+	//ROLL
 	ldr r3, =RollBattleRN
 	bl BXR3
 
@@ -69,7 +72,7 @@ NonArmsthrift:
 	strb r0, [r5, r1] @ BattleUnit.weaponBroke = true
 
 End:
-	ldr r3, =_ReturnLocation
+	mov r3, r8
 BXR3:
 	bx  r3
 

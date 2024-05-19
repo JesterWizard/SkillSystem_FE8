@@ -1,8 +1,8 @@
 PUSH
 
 //Armsthrift
-ORG $2B7F8
-jumpToHack(Armsthrift)
+// ORG $2B7F8
+// jumpToHack(Armsthrift)
   
 //Dazzle (can't be countered)
 ORG 0x2C864
@@ -10,13 +10,13 @@ jumpToHack(DazzleCheck)
 
 POP
 
-ALIGN 4
-Armsthrift:
-AxeFaithArmsthrift:
-ArmsthriftAxeFaith:
-#incbin "Armsthrift/armsthriftaxefaithblessing.dmp"
-POIN SkillTester|1
-WORD ArmsthriftID AxeFaithID BlessingID
+// ALIGN 4
+// Armsthrift:
+// AxeFaithArmsthrift:
+// ArmsthriftAxeFaith:
+// #incbin "Armsthrift/armsthriftaxefaithblessing.dmp"
+// POIN SkillTester|1
+// WORD ArmsthriftID AxeFaithID BlessingID
 
 ALIGN 4
 DazzleCheck:

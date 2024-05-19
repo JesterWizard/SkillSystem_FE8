@@ -1,0 +1,21 @@
+
+	/* Armsthrift calculation loop */
+
+PUSH
+ORG 0x2B7F8
+jumpToHack(ArmsLoopParent)
+POP
+
+ALIGN 4
+ArmsLoopParent:
+#incbin "ArmsthriftCalcLoop.dmp"
+POIN ArmsLoopList
+
+ALIGN 4
+ArmsLoopList:
+POIN Armsthrift
+POIN AxeFaith
+// POIN Blessing
+POIN 0
+
+PROTECT 0x2B7F8
