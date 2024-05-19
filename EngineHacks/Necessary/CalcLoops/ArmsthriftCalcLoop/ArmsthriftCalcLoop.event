@@ -15,7 +15,10 @@ ALIGN 4
 ArmsLoopList:
 POIN Armsthrift
 POIN AxeFaith
-// POIN Blessing
+
+//Blessing is expected to be last, as right now I'm having to add a weapon use to everything but the last skill on the list
+//Use one of the skills above this one as a template.
+POIN Blessing
 POIN 0
 
 PROTECT 0x2B7F8

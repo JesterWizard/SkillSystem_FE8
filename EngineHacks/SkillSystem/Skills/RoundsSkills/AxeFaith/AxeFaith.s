@@ -70,7 +70,12 @@ NonAxeFaith:
 	strb r0, [r5, r1] @ BattleUnit.weaponBroke = true
 
 End:
-	mov r3, r8
+	mov  r4, #0x48 		@ offsetof(BattleUnit.weaponAfter)
+	ldrh r0, [r5, r4] 	@ Load weapon
+	ldr r3, =0x100		@ add an additional use to counter the weapon uses being reduced
+	add r0, r3			
+	strh r0, [r5,r4]	@ store the new weapon use value
+	mov r3, r8			@ copy back the return location to the Armsthift calc loop
 BXR3:
 	bx  r3
 

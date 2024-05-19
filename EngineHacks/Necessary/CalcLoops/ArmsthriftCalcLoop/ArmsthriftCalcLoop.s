@@ -5,8 +5,8 @@
 ReturnLocation = 0x0802B828+1
 
 StartLoop:
-    mov r3, r9
-    push {r3}
+    mov r3, r9  @copy over the unit faction array location from r3
+    push {r3}   @save it on the stack
     mov  r3, #0x0 @initialize for loop
     Loop:
         ldr  r2, ArmsPointers   
@@ -23,8 +23,8 @@ StartLoop:
             b    Loop       @continue iterating through the loop
 
     EndLoop:
-    pop {r3}
-    mov  r9, r3
+    pop {r3}    @restore the unit faction array location
+    mov  r9, r3 @copy it back to its original register
     ldr  r3,=ReturnLocation
     bx   r3
 

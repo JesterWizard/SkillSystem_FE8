@@ -9,3 +9,9 @@ AxeFaith:
 #incbin "AxeFaith/AxeFaith.dmp"
 POIN SkillTester
 WORD AxeFaithID
+
+ALIGN 4
+Blessing:
+#incbin "Blessing/Blessing.dmp"
+POIN SkillTester
+WORD BlessingID
