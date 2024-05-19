@@ -1018,11 +1018,11 @@
 
 //Blessing: Guaranteed to not consume weapon durability.
 //By Snerdels
-#define BlessingID 140
+#define BlessingID 255
 
 //Dazzle: Opponents cannot counterattack this unit.
 //By circleseverywhere
-#define DazzleID 255
+#define DazzleID 140
 
 //Desperation: If HP < 50%, double attacks occur immediately.
 //By ??? (Initial Commit)
