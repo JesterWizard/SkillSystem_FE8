@@ -1795,3 +1795,8 @@ then double this unit's attack speed.[X]
 ## SD_Blessing
 Blessing: Guaranteed to not[N]
 consume weapon durability.[X]
+
+## SD_SwiftStrike
+SwiftStrike: If the user's weapon[N] 
+is brand new this round, they[N] 
+deal critical damage.[X]

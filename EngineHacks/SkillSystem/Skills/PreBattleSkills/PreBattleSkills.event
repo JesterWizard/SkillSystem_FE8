@@ -464,6 +464,12 @@ SwiftSwim:
 POIN SkillTester
 WORD SwiftSwimID
 
+ALIGN 4
+SwiftStrike:
+#incbin "SwiftStrike/SwiftStrike.dmp"
+POIN SkillTester
+POIN ItemTable
+WORD SwiftStrikeID
 
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
