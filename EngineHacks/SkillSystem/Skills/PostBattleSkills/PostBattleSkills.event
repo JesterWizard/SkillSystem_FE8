@@ -145,6 +145,11 @@ PoisonPoint:
 POIN SkillTester
 WORD PoisonPointID
 
+ALIGN 4
+#include "MoxieCheck/MoxieCheck.lyn.event"
+Moxie_ID_Link:
+BYTE MoxieID
+
 
 PUSH //some changes to vanilla code to make everything work
 ORG $1D24C //check for canto, modified to just check for cantoing bit set

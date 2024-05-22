@@ -1136,7 +1136,13 @@
 
 //Speed Boost: Boost movement by +1 per turn up to 6 turns.
 //By Jester
-#define SpeedBoostID 155
+#define SpeedBoostID 255
+
+//Moxie: Boost attack by +1 per defeated foe up to +10
+//By Jester
+//Requires expanding the debuff table in Engine Hacks/Necessary/Debuffs/Debuffs.event from its starting value of 8.
+//#define DebuffEntrySize {your_number}
+#define MoxieID 155
 
 //Minus: +4 to all stats for adjacent units with the 'Plus' skill.
 //By Jester

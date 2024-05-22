@@ -48,3 +48,8 @@ POIN AuraSkillCheck
 POIN SkillTester
 WORD PlusID
 WORD MinusID
+
+#include "Moxie/Moxie.lyn.event" 
+ALIGN 4
+MoxieID_Link:
+WORD MoxieID

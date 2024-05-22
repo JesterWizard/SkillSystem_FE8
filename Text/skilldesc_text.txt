@@ -1795,3 +1795,8 @@ then double this unit's attack speed.[X]
 ## SD_Blessing
 Blessing: Guaranteed to not[N]
 consume weapon durability.[X]
+
+## SD_Moxie
+Moxie: Boost your attack per[N]
+kill this chapter by +1, up[N]
+to a maximum of +10.[X]

@@ -71,7 +71,7 @@ MovRallyAmount_Link:
 WORD 2 
 
 
-#define DebuffEntrySize 8 // Number of bytes 
+#define DebuffEntrySize 12 // Number of bytes 
 
 // NOTE: If you wish to use more bits in the debuff table, please use the provided functions for ease of use. 
 /*
@@ -162,6 +162,10 @@ WORD MiscOffset+5
 DousedBitOffset_Link:
 WORD MiscOffset+6
 */
+
+//Used for Jester's skills
+MoxieBitOffset_Link:
+WORD MiscOffset+5
 
 
 ALIGN 4 
