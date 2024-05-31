@@ -1814,4 +1814,6 @@ StoneBody: If your CON is greater[N]
 than the enemy's, reduce incoming[N]
 physical damage by the difference.[X]
 
-
+## SD_Stalwart
+Stalwart: This unit is[N]
+immune to status effects.[X]
