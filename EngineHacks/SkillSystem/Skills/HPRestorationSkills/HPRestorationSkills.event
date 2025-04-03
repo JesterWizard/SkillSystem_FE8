@@ -28,4 +28,6 @@ BYTE ImbueID
 ReliefIDLink:
 BYTE ReliefID
 RenewalIDLink:
+BYTE RenewalMinusID
 BYTE RenewalID
+BYTE RenewalPlusID

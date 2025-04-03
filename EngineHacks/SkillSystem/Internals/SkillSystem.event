@@ -249,6 +249,7 @@ NegatedSkillEntry(LiquidOozeID)
 NegatedSkillEntry(DevilsLuckID)
 NegatedSkillEntry(DevilsPactID)
 NegatedSkillEntry(DevilsWhimID)
+NegatedSkillEntry(DevilsTrainingID)
 NegatedSkillEntry(PoisonStrikeID)
 NegatedSkillEntry(GrislyWoundID)
 NegatedSkillEntry(HexID)
@@ -337,7 +338,8 @@ NegatedSkillEntry(SlushRushID)
 NegatedSkillEntry(SwiftSwimID)
 NegatedSkillEntry(MercilessID)
 NegatedSkillEntry(StoneBodyID)
-
+NegatedSkillEntry(TextSkimmerID)
+NegatedSkillEntry(EncumberedID)
 
 /*
 //NOT WORKING (or they should not be affected by nihil)

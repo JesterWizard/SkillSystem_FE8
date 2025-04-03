@@ -146,7 +146,13 @@ ORG SkillIcon(LifetakerID)
 ORG SkillIcon(GaleforceID)
 #incbin "SkillIcons/Galeforce.dmp"
 
+ORG SkillIcon(RenewalMinusID)
+#incbin "SkillIcons/Renewal.dmp"
+
 ORG SkillIcon(RenewalID)
+#incbin "SkillIcons/Renewal.dmp"
+
+ORG SkillIcon(RenewalPlusID)
 #incbin "SkillIcons/Renewal.dmp"
 
 ORG SkillIcon(NiceThighsID)
@@ -1058,6 +1064,8 @@ ORG SkillIcon(ChaosStyleID)
 #incbin "SkillIcons/ChaosStyle.dmp"
 ORG SkillIcon(DragonskinID)
 #incbin "SkillIcons/DragonSkin.dmp"
+ORG SkillIcon(DeityID)
+#incbin "SkillIcons/Acrobat.dmp"
 ORG SkillIcon(StunningSmileID)
 #incbin "SkillIcons/StunningSmile.dmp"
 ORG SkillIcon(RecklessFighterID)
@@ -1200,6 +1208,21 @@ ORG SkillIcon(PathfinderID)
 
 ORG SkillIcon(ArmsMasterID)
 #incbin "SkillIcons/ArmsMaster.dmp"
+
+ORG SkillIcon(TextSkimmerID)
+#incbin "SkillIcons/Acrobat.dmp"
+
+ORG SkillIcon(AcrobatMinusID)
+#incbin "SkillIcons/Acrobat.dmp"
+
+ORG SkillIcon(FlierID)
+#incbin "SkillIcons/Acrobat.dmp"
+
+ORG SkillIcon(DevilsTrainingID)
+#incbin "SkillIcons/Acrobat.dmp"
+
+ORG SkillIcon(EncumberedID)
+#incbin "SkillIcons/Acrobat.dmp"
 
 ORG SkillIcons+0x8000
 

@@ -70,7 +70,9 @@
 	Redone_Effectiveness:
 	#include "Redone_Effectiveness.lyn.event"
 	POIN SkillTester
+	POIN FlierEffectiveness 
 	WORD NullifyID
+	WORD FlierID
 
 	ALIGN 4
 	Redone_Redone_Slayer:

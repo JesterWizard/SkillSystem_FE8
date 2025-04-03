@@ -306,10 +306,17 @@
 
 
 //HP Restoration Skills
-
-//Renewal: Restore 30% of max HP at the start of each turn.
+//Renewal: Restore 5 HP at the start of the turn
 //Author Unknown (Initial Commit)
-#define RenewalID 87
+#define RenewalMinusID 255
+
+//Renewal: Restore 10 HP at the start of the turn
+//Author Unknown (Initial Commit)
+#define RenewalID 255
+
+//Renewal: Restore 20 HP at the start of the turn
+//Author Unknown (Initial Commit)
+#define RenewalPlusID 87
 
 //Amaterasu: Allies within 2 tiles recover 20% HP each turn.
 //Author Unknown (Initial Commit)
@@ -341,9 +348,17 @@
 //By Tequila
 #define AcrobatID 53
 
+//AcrobatMinus: All traversible terrain costs are reduced by 1
+//By Jester
+#define AcrobatMinusID 145
+
+//Flier: Unit has a flier's movement, but also their bow weakness
+//By Jester
+#define FlierID 145
+
 //Armor March: At start of turn, if unit is adjacent to an armor ally, unit and adjacent armor allies gain +2 Mov.
 //By Leonarth
-#define ArmorMarchID 145
+#define ArmorMarchID 255
 
 //Pass: Can move through enemy units.
 //By Tequila
@@ -604,7 +619,9 @@
 
 //Fiery Blood: +4 damage when HP is not at max.
 //Author Unknown (Initial Commit)
-#define FieryBloodID 219
+#define FieryBloodID 255
+
+#define TextSkimmerID 219
 
 //Foreign Princess: Foreign army units take -2/+2 damage dealt/taken.
 //By Sme
@@ -816,6 +833,9 @@
 #define DragonSkinID 255
 #define DragonskinID DragonSkinID //Alias
 
+// Deity: Halve damage taken if enemy isn't using an S ranked weapon
+#define DeityID 14
+
 //Stunning Smile: If foe is male, inflicts Avo-20 on that foe during combat.
 //By Jopettajah
 #define StunningSmileID 255
@@ -850,7 +870,7 @@
 
 //Adept: Gain a consecutive attack. (Speed % activation)
 //Author Unknown (Initial Commit)
-#define AdeptID 14
+#define AdeptID 255
 
 //Aegis: Nullify a magic attack. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -913,12 +933,21 @@
 //By Leonarth
 #define DevilsWhimID 31
 
+//Devil's Training: Both units have Devil Reversal, but the skill holder's WEXP gains are doubled.
+//By Jester
+#define DevilsTrainingID 255
+
+//Encumbered: If this unit is rescuing another unit who's CON is equal or higher than half this unit's AID, 
+//unit gets -1 Mov. The penalty changes to -2 if this unit has Mounted AID calc
+//By Jester
+#define EncumberedID 33
+
 //Down With Arch: If the hit lands, instantly kill the enemy unit. (Only if name starts with "Arch")
 #define DownWithArchID 255
 
 //Dragon Fang: 1.5x damage. (Skill% activation)
 //By Sme
-#define DragonFangID 33
+#define DragonFangID 255
 
 //Eclipse: Leave opponent with 1 HP. (Skill % activation)
 //By Sme

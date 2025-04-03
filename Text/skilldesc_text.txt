@@ -11,6 +11,14 @@ Adept: Gain a consecutive attack.[N]
 Acrobat: All traversable[N]
 terrain costs 1 movement.[X]
 
+## SD_AcrobatMinus
+Acrobat-: All traversable[N]
+terrain costs are reduced by 1.[X]
+
+## SD_Flier
+Flier: Unit has a flier's movement[N]
+but also their bow weakness.[X]
+
 ## SD_Pass
 Pass: Can move through[N]
 enemy units.[X]
@@ -202,8 +210,16 @@ attacking and defeating an enemy.[X]
 Galeforce: Move again after[N]
 attacking and defeating an enemy.[X]
 
+## SD_RenewalMinus
+RenewalMinus: Restore 5 HP[N]
+at the start of each turn.[X]
+
 ## SD_Renewal
-Renewal: Restore 30% of max HP[N]
+Renewal: Restore 10 HP[N]
+at the start of each turn.[X]
+
+## SD_RenewalPlus
+RenewalPlus: Restore 20 HP[N]
 at the start of each turn.[X]
 
 ## SD_NiceThighs
@@ -767,6 +783,11 @@ Curses the enemy with Devil Reversal.[N]
 Devil's Whim: This unit is cursed, but[N]
 the curse spreads to the enemy as well.[N]
 (31-Luck % chance of Devil Reversal).[X]
+
+## SD_DevilsTraining
+Devil's Training: Both units have[N]
+Devil Reversal, but the skill holder's[N]
+WEXP gains are doubled.[X]
 
 ## SD_Poison_Strike
 Poison Strike: Deals damage equal to[N]
@@ -1556,6 +1577,11 @@ with magic or vice versa.[X]
 ## SD_Dragonskin
 Dragonskin: Halves damage taken.[X]
 
+## SD_Deity
+Deity:[N]
+Halve damage taken if enemy isn't[N]
+using an S-ranked weapon.[X]
+
 ## SD_StunningSmile
 Stunning Smile: If foe is male, inflicts[N]
 Avo -20 on that foe during combat.[X]
@@ -1833,7 +1859,16 @@ Pathfinder: Allies within 3 spaces can[N]
 use remaining movement after[N]
 any actions.[X]
 
-
 ## SD_ArmsMaster
 Arms Master: Unit can S rank more[N]
 than one weapon type.[X]
+
+## SD_TextSkimmer
+Text Skimmer: Halve weapon weight[NL]
+for tomes if unit's CON is less[NL]
+than their weight.[X]
+
+## SD_Encumbered
+Encumbered: If rescuing and rescuee[N]
+CON > rescuer AID/2, rescuer MOV -1.[N]
+If rescuer mounted, then MOV -2.[X]

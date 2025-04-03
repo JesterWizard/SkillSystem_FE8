@@ -35,6 +35,11 @@ ALIGN 4
 SpeedBoostID_Link:
 WORD SpeedBoostID
 
+#include "Encumbered/Encumbered.lyn.event" 
+ALIGN 4
+EncumberedID_Link:
+WORD EncumberedID
+
 PlusAura:
 #incbin "Plus/Plus.dmp" 
 POIN AuraSkillCheck

@@ -2,7 +2,9 @@
 
 @r0=attacker's item id, r1=defender battle struct
 
-.equ NullifyID, SkillTester+4
+.equ FlierEffectiveness, SkillTester+4
+.equ NullifyID, FlierEffectiveness+4
+.equ FlierID, NullifyID+4 
 
 push	{r4-r7,r14}
 mov		r4,r0
@@ -60,8 +62,21 @@ pop 	{r0-r3}
 */
 
 cmp		r6,#0
-beq		RetFalse			@if class has no weaknesses, end
+beq		Flier			    @if class has no weaknesses, check Flier skill
+b       SaveEffectivenessPointer
 
+Flier:
+mov		r0,r5
+ldr		r1,FlierID
+ldr		r3,SkillTester
+mov		r14,r3
+.short	0xF800
+cmp		r0,#0
+beq		RetFalse            @if unit doesn't have flier skill, then skip remaining effectiveness checks
+mov     r6, #4              @otherwise add flier type to the calculation for this unit
+ldr     r0, FlierEffectiveness 
+
+SaveEffectivenessPointer:
 mov		r4,r0				@save effectiveness ptr
 mov		r7,#0				@inventory slot counter
 ProtectiveItemsLoop:
