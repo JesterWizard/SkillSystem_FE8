@@ -1833,7 +1833,26 @@ Pathfinder: Allies within 3 spaces can[N]
 use remaining movement after[N]
 any actions.[X]
 
-
 ## SD_ArmsMaster
 Arms Master: Unit can S rank more[N]
 than one weapon type.[X]
+
+## SD_SwordKiller
+Sword Killer:[N]
+Deal x2 effective damage[N]
+against sword users.[X]
+
+## SD_LanceKiller
+Lance Killer:[N]
+Deal x2 effective damage[N]
+against lance users.[X]
+
+## SD_AxeKiller
+Axe Killer:[N]
+Deal x2 effective damage[N]
+against axe users.[X]
+
+## SD_BowKiller
+Bow Killer:[N]
+Deal x2 effective damage[N]
+against bow users.[X]
