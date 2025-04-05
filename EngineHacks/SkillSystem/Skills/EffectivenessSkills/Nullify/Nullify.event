@@ -86,6 +86,7 @@
 	WORD LanceKillerID
 	WORD AxeKillerID
 	WORD BowKillerID
+	WORD TomeKillerID
 	
 	
 #endif

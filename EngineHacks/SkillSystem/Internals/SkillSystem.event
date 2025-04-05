@@ -337,6 +337,7 @@ NegatedSkillEntry(SlushRushID)
 NegatedSkillEntry(SwiftSwimID)
 NegatedSkillEntry(MercilessID)
 NegatedSkillEntry(StoneBodyID)
+NegatedSkillEntry(DevilsTrainingID)
 
 
 /*

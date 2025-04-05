@@ -291,6 +291,10 @@
 //By Jester
 #define BowKillerID 255
 
+//Tome Killer: Deal x2 effective damage to magic users.
+//By Jester
+#define TomeKillerID 255
+
 //Resourceful: Double effectiveness multiplier.
 //By Sme
 #define ResourcefulID 48
@@ -920,6 +924,10 @@
 //Devil's Luck: Immune to Devil Reversal. Gives unit's Devil Reversal to the enemy. (31-Luck % chance of Devil Reversal).
 //By Leonarth
 #define DevilsLuckID 29
+
+//Devil's Training: Both units have Devil Reversal, but the skill holder's WEXP gains are doubled.[X]
+//By Jester
+#define DevilsTrainingID 255
 
 //Devil's Pact: Immune to Devil Reversal. Curses the enemy with Devil Reversal. (31-Luck % chance of Devil Reversal).
 //By Leonarth

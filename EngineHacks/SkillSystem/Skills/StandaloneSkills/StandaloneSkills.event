@@ -74,6 +74,7 @@ POIN SkillTester
 WORD DisciplineID
 WORD DisciplinePlusID
 WORD ArmsMasterID
+WORD DevilsTrainingID
 
 ALIGN 4
 LiveToServe:
